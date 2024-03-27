@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #fff;
+    background: linear-gradient(300deg, rgba(0, 0, 0, 1) 18%, rgba(4, 69, 65, 1) 100%, rgba(1, 58, 57, 1) 100%, rgba(1, 65, 64, 1) 100%, rgba(3, 149, 146, 1) 100%);
+    height: 100vh;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bafce3;
+}
+
+#num {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bafce3;
+}
+
+#btnInc {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 4%, rgba(4, 69, 65, 1) 100%, rgba(1, 58, 57, 1) 100%, rgba(1, 65, 64, 1) 100%, rgba(3, 149, 146, 1) 100%);
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+#btnInc:active {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 28, 13, 1) 39%, rgba(6, 51, 60, 1) 90%);
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bafce3;
+}
+
+
+#btnDec {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 4%, rgba(4, 69, 65, 1) 100%, rgba(1, 58, 57, 1) 100%, rgba(1, 65, 64, 1) 100%, rgba(3, 149, 146, 1) 100%);
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+#btnDec:active {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 28, 13, 1) 39%, rgba(6, 51, 60, 1) 90%);
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bafce3;
+}
+
+
+#btnRes {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 4%, rgba(4, 69, 65, 1) 100%, rgba(1, 58, 57, 1) 100%, rgba(1, 65, 64, 1) 100%, rgba(3, 149, 146, 1) 100%);
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+#btnRes:active {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 28, 13, 1) 39%, rgba(6, 51, 60, 1) 90%);
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bafce3;
+}
